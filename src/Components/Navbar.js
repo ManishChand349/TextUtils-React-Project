@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 export default function Navbar(props) {
@@ -19,7 +19,7 @@ export default function Navbar(props) {
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
-            aria-label="hrefggle navigation"
+            aria-label="Toggler navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -36,7 +36,6 @@ export default function Navbar(props) {
                 </Link>
               </li>
             </ul>
-
             <div
               className={`form-check form-switch text-${
                 props.mode === "light" ? "dark" : "light"
