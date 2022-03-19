@@ -43,12 +43,20 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
+<<<<<<< HEAD
             <Route path="/about" element={<About />} />         
+=======
+            <Route path="/about" element={<About />} />
+>>>>>>> 75c9e0e7f990616ebd80212cfd54d28cf528b278
             <Route path="/" element={<TextForm
               showAlert={showAlert}
               heading="Enter The text to analyze below"
               mode={mode}
+<<<<<<< HEAD
             />} />         
+=======
+            />}  />
+>>>>>>> 75c9e0e7f990616ebd80212cfd54d28cf528b278
           </Routes>
           
         </div>
